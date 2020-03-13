@@ -18,6 +18,9 @@ function writePassword() {
 
   // core function for password generation
   function generatePassword() {
+    
+    // reset user character list
+    userChar = "";
 
     // prompt for length (8-128 chars)
     var i = 0;
